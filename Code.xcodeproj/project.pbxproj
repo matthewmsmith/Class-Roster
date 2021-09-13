@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		6D8FAC2B26DD380C000C16D8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D8FAC2A26DD380C000C16D8 /* main.cpp */; };
+		6D8FAC3326DD382C000C16D8 /* Student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D8FAC3126DD382C000C16D8 /* Student.cpp */; };
+		6D8FAC3526DD38AB000C16D8 /* Degree.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D8FAC3426DD38AB000C16D8 /* Degree.hpp */; };
+		6DCFD85126E2F05700A985D7 /* Roster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DCFD84F26E2F05700A985D7 /* Roster.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,11 @@
 /* Begin PBXFileReference section */
 		6D8FAC2726DD380C000C16D8 /* Code */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Code; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D8FAC2A26DD380C000C16D8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6D8FAC3126DD382C000C16D8 /* Student.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Student.cpp; sourceTree = "<group>"; };
+		6D8FAC3226DD382C000C16D8 /* Student.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Student.hpp; sourceTree = "<group>"; };
+		6D8FAC3426DD38AB000C16D8 /* Degree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Degree.hpp; sourceTree = "<group>"; };
+		6DCFD84F26E2F05700A985D7 /* Roster.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Roster.cpp; sourceTree = "<group>"; };
+		6DCFD85226E2F72C00A985D7 /* Roster.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Roster.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,11 @@
 			isa = PBXGroup;
 			children = (
 				6D8FAC2A26DD380C000C16D8 /* main.cpp */,
+				6D8FAC3126DD382C000C16D8 /* Student.cpp */,
+				6D8FAC3226DD382C000C16D8 /* Student.hpp */,
+				6D8FAC3426DD38AB000C16D8 /* Degree.hpp */,
+				6DCFD84F26E2F05700A985D7 /* Roster.cpp */,
+				6DCFD85226E2F72C00A985D7 /* Roster.hpp */,
 			);
 			path = Code;
 			sourceTree = "<group>";
@@ -119,6 +132,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D8FAC2B26DD380C000C16D8 /* main.cpp in Sources */,
+				6D8FAC3526DD38AB000C16D8 /* Degree.hpp in Sources */,
+				6DCFD85126E2F05700A985D7 /* Roster.cpp in Sources */,
+				6D8FAC3326DD382C000C16D8 /* Student.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
